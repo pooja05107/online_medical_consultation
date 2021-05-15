@@ -1,0 +1,161 @@
+body, h1,h2,h3{
+  font-family: 'Montserrat',sans-serif;
+  line-height: 1.5;
+}
+h1{
+  font-size: 3rem;
+  font-weight: 900;
+}
+h2{
+  font-size: 2rem;
+  font-weight: 700;
+}
+h3{
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+
+
+/* Title-cont */
+ #title{
+  background-color: #9b8bad;
+  color: white;
+}
+.title-exp{
+  padding-left: 2.5%;
+  padding-top: 5%;
+  font-family: "Montserrat";
+  font-size: 30px;
+  color: #67567a;
+}
+.navbar{
+  padding: 0 0 5rem;
+}
+#navbrand{
+  font-family:"Ubuntu";
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+#navitem{
+  font-family: "Montserrat";
+  font-size: 20px;
+  padding-left: 13px;
+}
+.tit-img{
+  width: 65%;
+  padding-left:10%;
+}
+
+
+
+/* Features-cont */
+#features{
+    text-align:center;
+}
+.feature-box{
+  padding: 0 30px;
+}
+.feature-icon{
+  font-size: 40px;
+  color: #bcb2c8;
+  padding-bottom: 3%;
+}
+.feature-icon:hover{
+  color:#907fa4;
+}
+.feature-heading{
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+#container-fluid{
+  padding: 5% 15%;
+}
+
+
+
+/* Testimonials-cont */
+#testimonials{
+  background-color: #907fa4;
+  text-align: center;
+  line-height: 2;
+  color:white;
+}
+.testimonials-img{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+
+
+
+/* Press-cont */
+#press{
+  background-color: #907fa4;
+  padding-bottom: 30px;
+  text-align: center;
+
+}
+.press-img{
+  width:15%;
+  padding: 15px;
+}
+
+
+
+/* Pricing-cont */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.price-col{
+  padding: 3% 3%;
+}
+
+
+
+/* Call-to-Action-cont */
+#cta{
+  background-color:#9b8bad;
+  padding:5% 5%;
+  text-align: center;
+  font-family: "Montserrat";
+  color: white;
+}
+
+
+
+/* Footer-cont */
+#footer{
+  padding:7% 10%;
+  text-align: center;
+}
+.footer-icon{
+  margin: 20px 10px;
+}
+
+
+
+/* COMMONS */
+.dwld-btn{
+  margin: 5% 3% 5% 0;
+}
+
+
+
+/* Media-Queries */
+@media (max-width:1091px){
+  #title{
+    text-align: center;
+  }
+  .title-exp{
+    text-align: center;
+  }
+  .tit-img{
+     text-align: center;
+  }
+}
